@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App";
 import Product from "./Product";
 import ListMenu from "./ListMenu";
+import MouseTracking from "./MouseTracking";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
@@ -12,5 +13,7 @@ root.render(
     <span>=============homework29_2============</span>
     <ListMenu />
     <span>=============homework29_3============</span>
+    <MouseTracking />
+    <span>=============homework29_4============</span>
   </StrictMode>
 );
