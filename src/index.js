@@ -4,6 +4,7 @@ import App from "./App";
 import Product from "./Product";
 import ListMenu from "./ListMenu";
 import MouseTracking from "./MouseTracking";
+import InputRef from "./InputRef";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
@@ -15,5 +16,6 @@ root.render(
     <span>=============homework29_3============</span>
     <MouseTracking />
     <span>=============homework29_4============</span>
+    <InputRef />
   </StrictMode>
 );
