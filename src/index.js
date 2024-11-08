@@ -5,6 +5,7 @@ import Product from "./Product";
 import ListMenu from "./ListMenu";
 import MouseTracking from "./MouseTracking";
 import InputRef from "./InputRef";
+import WithLogger from "./WithLogger";
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);
 root.render(
@@ -17,5 +18,7 @@ root.render(
     <MouseTracking />
     <span>=============homework29_4============</span>
     <InputRef />
+    <span>=============homework29_5============</span>
+    <WithLogger />
   </StrictMode>
 );
